@@ -1,0 +1,6 @@
+/* 자식 선택자 : > */
+.nav-wrap > div {border: 1px solid red;}
+/* 자손 선택자 : 스페이스 */
+.nav-wrap  div {background-color: yellowgreen;}
+/*  */
+.nav-wrap > div >div {background-color: teal;}
