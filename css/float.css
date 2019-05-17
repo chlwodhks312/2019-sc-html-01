@@ -15,5 +15,8 @@
 	.nav-rt:hover { background-color: #f20; cursor: pointer;} 
 
 	.cls {clear: both;}
-
+	.test-wrap {background-color: red; color: #fff; font-size: 24px;}
+	.test-wrap > .test-lt {float: left; border: 5px solid #000;}
+	.test-wrap > .test-rt {float: right;  border: 5px solid #000;}
+	.test-wrap > div > div {float: left; padding: 16px;}
 
