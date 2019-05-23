@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Form 요소</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="./css/base.css">
+	<link rel="stylesheet" href="./css/form.css">
+</head>
+<body>
+	<div class="wrap">
+		<div class="tit"> Table/Form 알아보자</div>
+		<form action="#" method="post" name="form1" class="join-form"> 
+			<div class="joins">
+				<h3><span class="fa fa-edit txt-blue"></span>회원가입</h3>
+			</div>
+			<table class="tbl-join">
+				<tbody>
+					<thead>
+						<tr>
+							<td>아이디</td>
+							<td>
+								<!-- placeholder :가이드 해주는 문구 -->
+								<input type="text" name="" placeholder="아이디">
+								<button type="button" name="" >아이디 중복 확인</button>
+							</td>
+						</tr>
+						<tr>
+							<td>패스워드</td>
+							<td><input type="password" name=""></td>
+						</tr>
+						<tr>
+							<td>패스워드확인</td>
+							<td><input type="password" name=""></td>
+						</tr>
+						<tr>
+								<td>성별</td>
+								<td>
+								<label><input type="radio" name="gender" checked>남자</labe>
+								<label><input type="radio" name="gender">여자</td></labe>
+						</tr>
+						<tr>
+								<td>국적</td>
+								<td>
+								<input type="radio" id="country1" name="country" checked>
+								<label for="country1">내국인</labe>
+								<input type="radio" id="country2" name="country">
+								<label for="country2">외국인</label>
+								</td>
+						</tr>
+						<tr>
+							<td>가입경로</td>
+							<td>
+									<input type="checkbox" id="route1" name="route">
+									<label for="route1">인터넷</labe>
+									<input type="checkbox" id="route2" name="route">
+									<label for="route2">신문</labe>
+									<input type="checkbox" id="route3" name="route">
+									<label for="route3">지인소개</labe>
+									<input type="checkbox" id="route4" name="route">
+									<label for="route4">추천인</labe>
+							</td>
+						</tr>
+						<tr>
+							<td>휴대폰번호</td>
+							<td>
+								<select name="hp1" >
+									<option value="">선택하세요</option>
+									<option value="010" selected>010</option>
+									<option value="011">011</option>
+									<option value="016">016</option>
+									<option value="017">017</option>
+									<option value="018">018</option>
+									<option value="019">019</option>	
+								</select>-
+								<input type="text" maxlength="4" class="hp">-
+								<input type="text" maxlength="4" class="hp">
+							</td>
+						</tr>
+						<tr>
+							<td>첨부파일</td>
+							<td>
+								<input type="file">
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2">
+								<textarea class="summary" placeholder="남기실 말을 작성해 주세요"></textarea>
+							</td>
+						</tr>
+						<!-- <tr>
+							<td>
+								<input type="color">
+								<input type="date">
+								<input type="datetime-local">
+							</td>
+						</tr> -->
+					</thead>
+				</tbody>		
+			</table>
+			<div class="bts">
+				<button type="submit">가입</button>	
+				<button type="reset">재작성</button>	
+			</div>
+		</form>
+			<!-- <table  border="1" class="tbl" cellpadding="20" cellspacing="0"> -->
+			<table class="tbl" id="tbl1">
+				<tr>
+					<td rowspan="2">가</td>
+					<td>나</td>
+					<td>다</td>
+				</tr>
+				<tr>
+					
+					<td>마</td>
+					<td>다</td>
+				</tr>
+				<tr>
+					<td>라</td>
+					<td colspan="2">마</td>
+				</tr>
+			</table>
+			<table class="tbl">
+				<tr>
+					<td>가</td>
+					<td rowspan="2" colspan="2">나</td>
+					<td>다</td>
+
+				</tr>
+				<tr>
+					<td>가</td>									
+					<td>다</td>
+
+				</tr>
+				<tr>
+					<td>가</td>
+					<td>나</td>
+					<td>다</td>
+					<td>라</td>
+				</tr>
+				<tr>
+					<td>가</td>
+					<td>나</td>
+					<td>다</td>
+					<td>라</td>
+				</tr>
+				<tr>
+					<td>가</td>
+					<td>나</td>
+					<td>다</td>
+					<td>라</td>
+				</tr>
+			</table>
+
+
+			<table class="tbl">
+				<thead>
+					<tr>
+						<th>이름</th>
+						<th>국어</th>
+						<th>영어</th>
+						<th>수학</th>
+					</tr>
+				</thead>
+				<tbody>
+					
+					<tr>
+						<td>홍길동</td>
+						<td>95점</td>
+						<td>90점</td>
+						<td>85점</td>
+					</tr>
+					<tr>
+						<td>홍길순</td>
+						<td>88점</td>
+						<td>90점</td>
+						<td>95점</td>
+					</tr>
+					<tr>
+						<td>홍길만</td>
+						<td>90점</td>
+						<td>90점</td>
+						<td>88점</td>
+					</tr>
+				</tbody>
+			</table>
+	</div>	
+</body>
+</html>
