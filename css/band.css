@@ -1,10 +1,9 @@
 /* 공통사항 */
-.body {width: 5000px;}
-.wrap {width: 100%; max-width: 1920px;margin: auto;}
+.wrap {width: 100%; max-width: 1920px; margin: auto;}
 .wrap2 {width: 100%; max-width: 800px; margin: auto; padding: 100px 0;}
-.nav-hover:hover {background-color: #ccc; color: #000;} 
-.nav-hover-orange:hover {background-color: #f20; } 
-.sec-tit {text-align: center;font-weight: normal; letter-spacing: 8px; }
+.nav-hover:hover {background-color: #ccc; color: #000;}
+.nav-hover-orange:hover {background-color: #f20;}
+.sec-tit {text-align: center; font-weight: normal; letter-spacing: 8px;}
 .sec-tit2 {text-align: center; padding: 30px 0; color: #aaa; font-style: italic;}
 .sec-p {text-align: justify;}
 
@@ -15,46 +14,46 @@
 .top-nav > .nav-lt div {float: left;}
 .top-nav > .nav-lt > .nav-home {padding: 16px 24px;}
 .top-nav > .nav-lt > .nav-wrap > div {padding: 16px 24px;}
-
 /* .top-nav:after {display: block; content: ""; clear: both;} */
-.band {width: 33.33%; float: left; padding: 40px;}
-/* class band이고 첫 div이 만 값을 준다.  first:첫번째 list:마지막 nth: n번째*/
-.band > :nth-child(1) {text-align: center; padding: 20px 0;font-size: 18px; color: #000; }
 
+.band {width: 33.33%; float: left; padding: 40px;}
+.band > :nth-child(1) {text-align: center; padding: 20px 0; font-size: 18px; color: #000;}
 .tours {background-color: #000;}
 .tours .sec-tit {color: #fff;}
 .cals {background-color: #f1f1f1;}
-.cals > .cls  {padding: 12px; border-bottom: 1px solid #aaa;}
-/*border-radius -원형으로 만들어준다  */
-.cals .rnd {background-color: #000; color: #444; padding: 2px 10px;  border-radius: 50%; float: right;}
-.cals .soldout {background-color: #f20; color:  #fff; padding: 3px 6px; margin-left: 30px;}
+.cals > .cal {padding: 12px; border-bottom: 1px solid #aaa; color: #444;}
+.cals .rnd {background-color: #000; color: #fff; 
+	padding: 2px 10px; float: right; border-radius: 50%;}
+.cals .soldout {background-color: #f20; color: #fff; padding: 3px 6px;
+	margin-left: 30px;}
 .cities {margin-top: 30px;}
 .city {width: 32%; float: left; background-color: #f8f8f8;}
-.city:nth-child(2) {margin: 0 2%; }
-.city > div {background-color: #000; line-height: 0;}
+.city:nth-child(2) {margin: 0 2%;}
+.city > div {background-color: #000;}
 .city > div > img {display: block;}
 .city > div > img:hover {opacity: 0.8;}
 .city > ul {padding: 16px;}
-/* li:not(:last-child) 마지막 li는 margin-bottom 주지 말아라 */
 .city > ul > li:not(:last-child) {margin-bottom: 16px;}
 .city > ul > :nth-child(1) {color: #000; font-weight: bold;}
 .city > ul > :nth-child(2) {color: #444; font-size: 18px;}
 .city > ul > :nth-child(3) {color: #000;}
-.city > ul > :nth-child(4) {background-color: #000; display: inline-block; color: #fff; padding:10px; cursor: pointer;}
+.city > ul > :nth-child(4) {background-color: #000; display: inline-block; color: #fff; padding: 12px; cursor: pointer;}
 .city > ul > :nth-child(4):hover {background-color: #bbb; color: #000;}
-/* block, inline, inline-block */
-.contact {margin-top: 50px; }
+
+/* block, inline, inline-block	 */
+
+.contact {margin-top: 50px;}
 .contact > * {width: 50%; float: left;}
-.contact > ul > li {padding: 10px 0;} 
-.contact > ul  > li > span:first-child {width: 30px;}
+.contact > ul > li {padding: 10px 0;}
+.contact > ul > li > span:first-child {width: 30px;}
 .contact .form-div {padding: 6px 0;}
 .contact input {padding: 10px;}
-.contact .form-div:nth-child(1) > input:first-child {width: 48%; float: left;}
-.contact .form-div:nth-child(1) > input:last-child {width: 48%; float: right;}
+.contact .form-div:nth-child(1) > input:first-child {width: 48.5%; float: left;}
+.contact .form-div:nth-child(1) > input:last-child {width: 48.5%; float: right;}
 .contact .form-div:nth-child(2) > input {width: 100%;}
 .contact .form-div:nth-child(3) {text-align: right;}
 .contact .bt-send {padding: 12px 16px; background-color: #000; color: #fff; cursor: pointer;}
-.contact .bt-send:hover {background-color: #ccc; color: #fff;}
+.contact .bt-send:hover {background-color: #ccc; color: #000;}
 
-.footer {text-align: center; color: #999} 
-.footer > .sns-link {margin-bottom: 20px;; font-size: 24px;}
+.footer {text-align: center; color: #999; padding: 50px 0;}
+.footer > .sns-link {margin-bottom:20px; font-size: 24px;}
