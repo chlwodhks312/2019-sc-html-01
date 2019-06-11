@@ -8,7 +8,9 @@
 	<title>Band Website</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="./css/base.css">
+	<link rel="stylesheet" href="./css/animate.css">
 	<link rel="stylesheet" href="./css/band.css">
+	<script src="js/wow.min.js"></script>
 </head>
 <body>
 	<!-- header -->
@@ -36,25 +38,25 @@
 	</div>
 	<!-- band -->
 	<div class="bands wrap2">
-		<h1 class="sec-tit">THE BAND</h1>
-		<p class="sec-tit2">We love music</p>
-		<p class="sec-p">
+		<h1 class="sec-tit wow bounce" data-wow-offset="300">THE BAND</h1>
+		<p class="sec-tit2 wow flash" data-wow-offset="300">We love music</p>
+		<p class="sec-p wow slideInDown" data-wow-offset="300">
 			We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 		</p>
 		<div class="band-row clear">
-			<div class="band">
+			<div class="band wow slideInLeft" data-wow-offset="300">
 				<div>Name</div>
 				<div>
 					<img src="img/bandmember.jpg" alt="밴드사진" class="img">
 				</div>
 			</div>
-			<div class="band">
+			<div class="band wow zoomIn" data-wow-offset="300">
 				<div>Name</div>
 				<div>
 					<img src="img/bandmember.jpg" alt="밴드사진" class="img">
 				</div>
 			</div>
-			<div class="band">
+			<div class="band wow slideInRight" data-wow-offset="300">
 				<div>Name</div>
 				<div>
 					<img src="img/bandmember.jpg" alt="밴드사진" class="img">
@@ -65,18 +67,18 @@
 	<!-- tour -->
 	<div class="tours">
 		<div class="wrap2">
-			<h1 class="sec-tit">TOUR DATES</h1>
-			<p class="sec-tit2">Remember to book your tickets!</p>
+			<h1 class="sec-tit wow slideInUp" data-wow-offset="300">TOUR DATES</h1>
+			<p class="sec-tit2 wow slideInUp" data-wow-offset="300">Remember to book your tickets!</p>
 			<ul class="cals">
-				<li class="cal">
+				<li class="cal wow flipInX" data-wow-offset="300">
 						September
 						<span class="soldout">Sold out</span>
 				</li>
-				<li class="cal">
+				<li class="cal  wow flipInX" data-wow-offset="300" data-wow-delay="0.5s">
 						October 
 						<span class="soldout">Sold out</span>	
 				</li>
-				<li class="cal">
+				<li class="cal wow flipInX" data-wow-offset="300" data-wow-delay="1s">
 						November
 						<span class="rnd">3</span>
 				</li>
@@ -169,5 +171,9 @@
 			Powered by w3.css
 		</div>
 	</div>
+	
+	<script>
+	new WOW().init();
+	</script>
 </body>
 </html>
